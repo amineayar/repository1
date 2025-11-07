@@ -27,10 +27,10 @@ public class GameController {
     private Random random = new Random();
 
     // Parámetros de los círculos
-    private final double MIN_RADIUS = 10;
-    private final double MAX_RADIUS = 30;
-    private final double FALL_SPEED = 1;
-    private final double LOST_LINE_Y = 550; // Línea cerca del pie de la ventana (600px)
+    private final double MIN_RADIUS = 90;
+    private final double MAX_RADIUS = 40;
+    private final double FALL_SPEED = 2;
+    private final double LOST_LINE_Y = 600; // Línea cerca del pie de la ventana (600px)
 
     @FXML
     public void initialize() {
@@ -103,7 +103,8 @@ public class GameController {
     }
 
     private void updateCircles() {
-        // Usamos un Iterator seguro para evitar errores al modificar la lista mientras iteramos
+        // Usamos un Iterator seguro para evitar errores al modificar la lista mientras
+        // iteramos
         Iterator<javafx.scene.Node> iterator = gamePane.getChildren().iterator();
         while (iterator.hasNext()) {
             javafx.scene.Node node = iterator.next();
