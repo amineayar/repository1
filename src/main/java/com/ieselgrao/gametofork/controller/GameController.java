@@ -27,10 +27,10 @@ public class GameController {
     private Random random = new Random();
 
     // Parámetros de los círculos
-    private final double MIN_RADIUS = 10;
-    private final double MAX_RADIUS = 30;
-    private final double FALL_SPEED = 1;
-    private final double LOST_LINE_Y = 550; // Línea cerca del pie de la ventana (600px)
+    private final double MIN_RADIUS = 4;
+    private final double MAX_RADIUS = 9;
+    private final double FALL_SPEED = 3;
+    private final double LOST_LINE_Y = 999; // Línea cerca del pie de la ventana (600px)
 
     @FXML
     public void initialize() {
