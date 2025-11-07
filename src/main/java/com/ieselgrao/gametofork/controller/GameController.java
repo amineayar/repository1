@@ -103,7 +103,8 @@ public class GameController {
     }
 
     private void updateCircles() {
-        // Usamos un Iterator seguro para evitar errores al modificar la lista mientras iteramos
+        // Usamos un Iterator seguro para evitar errores al modificar la lista mientras
+        // iteramos
         Iterator<javafx.scene.Node> iterator = gamePane.getChildren().iterator();
         while (iterator.hasNext()) {
             javafx.scene.Node node = iterator.next();
