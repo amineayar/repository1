@@ -1,5 +1,5 @@
 1. I created a new repository called "repository1" on my GitHub account.
-![Screenshot](./img/%20creating%20repository.pngimg/)
+![Screenshot](./img/%20creating%20repository.png)
 
 2. I cloned the original project from A-Game-to-Fork  using GitKraken.
 ![alt text](./img/i%20cloned.png)
@@ -21,4 +21,5 @@
 
 
 8.Finally, I deleted the old README.md and created this new one with explanations and screenshots.
+
 
